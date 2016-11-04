@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Ryan e Gosche | Portfolio</title>
+    
+    <link rel="stylesheet" href="css/styles1.css" type="text/css">
+	<link rel="stylesheet" href="css/med_790.css" media="(max-width:790px)">
+	<link rel="stylesheet" href="css/sm_540.css" media="(max-width:540px)">
+    
+    <script src="js/sliders.js"></script>
+    
+    <link rel="icon" type="image/png" href="images/reg-favicon.png" width="16px" height="16px"/>
+        
+  </head>
+  <body>
+  
+  	<div id="wrapper">
+
+        <div id="header">
+        
+            <div id="logo-header">
+            	<img src="images/reg_logo.png" width="109" height="76" id="logo">
+                <img src="images/reg_logo_wgm.png" width="300" height="76" id="logo_wgm"><!--hidden @>540-->
+                <img src="images/ryanegoscheCAP-wgm.png" id="logo_name_wgm">
+                <img src="images/ryanegoscheCAP.png" id="logo_name"><!--hidden @>540-->
+            </div><!--close logo-header-->
+        
+            <a href="#print"><button class="top-navigation">Print Design</button></a>
+            <a href="#web"><button class="top-navigation">Web Design</button></a>
+            <a href="#multimedia"><button class="top-navigation">Multimedia</button></a>
+            <a href="#illustration"><button class="top-navigation">Illustration</button></a>
+            <a href="#photography"><button class="top-navigation">Photography</button></a>
+			<a href="#contact"><button class="top-navigation">Contact</button></a>
+            
+            <div id="menu_bar">
+                <button id="menu_btn" class="accordion">&nbsp; &#9776; View Work</button>
+            
+                <div id="menu_panel">
+                    <a href="#print"><button class="menu_items">Print Design</button></a><br/>
+                    <a href="#web"><button class="menu_items">Web Design</button></a><br/>
+                    <a href="#multimedia"><button class="menu_items">Multimedia</button></a><br/>
+                    <a href="#illustration"><button class="menu_items">Illustration</button></a><br/>
+                    <a href="#photography"><button class="menu_items">Photography</button></a><br/>
+                    <a href="#contact"><button class="menu_items">Contact</button></a><br/>
+                </div><!--close menu_panel-->
+                
+            <script src="js/accordion.js"></script>    
+            
+            </div><!--close menu_bar-->
+
+        </div><!--close header-->
+        
+        <div id="about">
+        	<div id="aboutLeft">
+            	&nbsp;About
+            </div><!--close aboutLeft-->
+            
+            <div id="aboutRight">
+            	Science, music, art, and adventure are passions that provide inspiration for nearly all of my work. 
+                <br/><br/>Typography, balance, function, and communication are key design strengths that I focus on. 
+                <br/><br/>I have an appetite for knowledge and I'm always willing to learn something new and something old. 
+            </div><!--close aboutRight-->
+        </div><!--close about-->
+        
+        <hr size="1">
+        
+        <div class="section" id="print">
+        
+            <div class="section-header">
+            Print Design
+            </div><!--close class section header-->
+            
+            <div class="sub-nav">
+                <button class="sub-nav-btn" onclick="showImage(0)">Branding Identity</button> 
+                <button class="sub-nav-btn" onclick="showImage(1)">Publication Layout</button> 
+                <button class="sub-nav-btn" onclick="currentDiv(3)">Packaging Design</button> 
+                <button class="sub-nav-btn" onclick="currentDiv(4)">Poster Design</button>
+            </div><!--close sub-nav-->
+           
+            <div class="print_slider">
+            	<div><img src="images/print/fab_inc-01.jpg" name="Print | Branding Identity" alt="Logo and promotional design"/></div>
+                
+                <div><a href="http://ryanegosche.com/doublenorth" target="_blank"><img src="images/web/waycase-01.jpg" name="Web Design | Website Design" alt="Double North Way•Case product website"/></a></div>
+           
+            	<button class="prev" >&#8678;</button> &nbsp; &nbsp; 	
+            	<button class="next" >&#8680;</button>
+            
+            </div><!--close class slider-->
+            
+            <div id="print_title"></div>
+            <div id="print_subtitle"></div>
+                       
+        </div><!--close print-->
+        
+        <hr size="1" width="750" >
+        
+        <div class="section" id="web">
+        
+            <div class="section-header">
+            Web Design
+            </div><!--close class section header-->
+            
+            <div class="sub-nav">
+                <button class="sub-nav-btn" id="website">Website Design</button> 
+                <button class="sub-nav-btn" id="games">Interactive Games</button> 
+                <button class="sub-nav-btn" id="eLearning">eLearning</button> 
+            </div><!--close sub-nav-->
+            
+            <div class="web_slider">
+            	<div><a href="http://ryanegosche.com/sideshow" target="_blank"><img src="images/web/sideshow-01.jpg" name="Web Design | Website Design" alt="Sideshow bloody mary product website."/></a></div>
+                <div><a href="http://ryanegosche.com/doublenorth" target="_blank"><img src="images/web/waycase-01.jpg" name="Web Design | Website Design" alt="Double North Way•Case product website"/></a></div>
+            
+                    <button class="prev" >&#8678;</button> &nbsp; &nbsp; 	
+                    <button class="next" >&#8680;</button>
+            
+            </div><!--close class slider-->    
+            
+            <div id="web_title"></div>
+            <div id="web_subtitle"></div>
+                                    
+        </div><!--close web-->
+        
+        <hr size="1" width="750">
+
+        <div class="section" id="multimedia">
+        
+            <div class="section-header">
+            Multimedia
+            </div><!--close class section header-->
+            
+            <div class="sub-nav">
+                <button class="sub-nav-btn" id="motion-graphics">Motion Graphics</button> 
+                <button class="sub-nav-btn" id="animation">Animation</button>
+                <button class="sub-nav-btn" id="video">Video &amp; Sound Editing</button> 
+            </div><!--close sub-nav-->
+            
+            <div class="multimedia_slider">
+            	<div><img src="images/multimedia/flipside-01.jpg" name="Multimedia | Motion Graphics" alt="Retro Title Sequence. Video/Sound Editing"></div>
+            
+                <button class="prev" >&#8678;</button> &nbsp; &nbsp; 	
+                <button class="next" >&#8680;</button>
+            
+            </div><!--close class multimedia_slider-->
+            	
+            <div id="multimedia_title"></div>
+            <div id="multimedia_subtitle"></div>
+                                     
+        </div><!--close multimedia-->
+        
+        <hr size="1" width="750">
+
+        <div class="section" id="illustration">
+        
+            <div class="section-header">
+            Illustration
+            </div><!--close class section header-->
+            
+            <div class="sub-nav">
+                <button class="sub-nav-btn" >Digital</button> 
+                <button class="sub-nav-btn" >Traditional</button>
+                <button class="sub-nav-btn" >Maps</button> 
+            </div><!--close sub-nav-->
+            
+            <div class="illustration_slider">
+            	<div><img src="images/illustration/vstar-01.jpg" name="Illustration | Digital" alt="V-Star Motorcycle. Vector Illustration."></div>
+                
+                <button class="prev" >&#8678;</button> &nbsp; &nbsp; 	
+                <button class="next" >&#8680;</button>
+                
+            </div><!--close class illustration_slider-->
+            
+            <div id="illustration_title"></div>
+            <div id="illustration_subtitle"></div>
+                                    
+        </div><!--close illustration-->
+        
+        <hr size="1" width="750">
+
+        <div class="section" id="photography">
+        
+            <div class="section-header">
+            Photography
+            </div><!--close class section header-->
+            
+            <div class="sub-nav">
+                <button class="sub-nav-btn" >Natural</button> 
+                <button class="sub-nav-btn" >Architecture</button>
+                <button class="sub-nav-btn" >Image Restoration</button> 
+                <button class="sub-nav-btn" >Image Manipulation</button>
+            </div><!--close sub-nav-->
+            
+            <div class="photography_slider">
+            	<div><img src="images/photography/assassin-01.jpg" name="Photography | Natural" alt="Assassin Nymph."></div>
+                
+                <button class="prev" >&#8678;</button> &nbsp; &nbsp; 	
+                <button class="next" >&#8680;</button>
+                
+            </div><!--close class photography_slider-->
+            
+            <div id="photography_title"></div>
+            <div id="photography_subtitle"></div>
+            
+            <div class="back_top"><a href="#logo-header">&#10094 Back To Top</a></div>
+                        
+        </div><!--close photography-->
+        
+        <hr size="1" width="750">
+        
+        <div class="section" id="photography">
+        
+            <div class="section-header" id="contact">
+            Contact
+            </div><!--close class section header-->
+            
+            <div class="back_top"><a href="#logo-header">&#10094 Back To Top</a></div>
+            
+        </div><!--close section contact-->
+    
+    
+
+    </div><!--close wrapper-->
+  
+  </body>
+</html>

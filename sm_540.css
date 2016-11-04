@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#logo {
+	display: none; /*hidden at <540*/
+}
+#logo_wgm {
+	display: inline-block; /*show at <540*/
+	max-width: 300px;
+	width: 60%;
+	height: auto;
+}
+#logo_name_wgm {
+	display: none; /*hidden at <540*/
+}
+#logo_name {
+	display: inline-block; /*show at <540*/
+	width: 85%;
+	height: auto;
+}
+#logo-header img {
+}
+
+#aboutLeft {
+	font-size: 1.2em;
+	width: 95%;
+	padding: 0 0 0 5px;
+	text-align: center;
+	line-height: 2em;
+	float: none;
+}
+
+#aboutRight {
+	font-size: .80em;
+	width: 80%;
+	padding: 20px;
+	border-left: none;
+	border-top: solid .5px #BBB;
+	float: none;
+	margin: 0 auto 0;
+}
+
+.section {
+	margin-top: 25px;
+	padding: 10px;
+}
+
+.section-header {
+	font-size: 2.4em;
+	margin: 0 auto 10px;
+}
+
+.sub-nav-btn {
+	font-size: .75em;
+	font-weight: 400;
+	width: 85%;
+	height: 40px;
+	background: none;
+	letter-spacing: .09em;
+	margin: 5px 10px 5px;
+}
+
+.section #title {
+	font-size: .85em;
+}
+
+#subtitle {
+	font-size: .7em;
+	letter-spacing: .05em;
+}

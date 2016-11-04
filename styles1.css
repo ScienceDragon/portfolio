@@ -1,0 +1,275 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+    font-family: Gotham light;
+    src: url(fonts/GOTHAM-LIGHT.ttf);
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	text-decoration: none;
+	color: inherit;
+}
+
+hr {
+	width:92%;
+	max-width: 750px;
+}
+
+button:focus {
+	outline: 0;
+}
+
+body {
+	color: #666;
+	font-family: Gotham, "Gotham", Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+	position: relative;
+	margin: 0 auto 0;
+}
+
+#header {
+	position: relative;
+	margin: 15px auto 0;
+	text-align: center;
+	background: #fff;
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+#header a,
+#header a:hover,
+#header a:active
+#header a:link {
+	text-decoration: none;
+}
+
+#logo-header {
+}
+
+#logo-header img {
+	margin: 20px;
+}
+
+#logo_wgm {
+	display: none; /*hidden at >540*/
+}
+
+#logo_name_wgm {
+	width: 85%;
+	max-width: 596px;
+	height: auto;
+}
+#logo_name {
+	display: none; /*hidden at >540*/
+}
+
+#menu_bar {
+	display: none;
+}
+
+.top-navigation, #menu_btn {
+	font-family: "Gotham light", Helvetica, Arial, sans-serif;
+	position: relative;
+	text-align: center;
+	color: #333;
+	font-size: .8em;
+	font-weight: 100;
+	letter-spacing: .1em;
+	display: inline;
+	margin: 10px -2px 0;
+	width: 125px;
+	height: 55px;
+	line-height: 55px;
+	border: none;
+	background: #fff;
+	transition: background .75s ease-in; 
+}
+
+.top-navigation:hover, #menu_btn:hover {
+	background: #DDD;
+	color: #333;
+}
+
+#about {
+	max-width: 750px;
+	height: 200px;
+	margin: 125px auto 150px;
+}
+
+#aboutLeft {
+	font-family: "Gotham light", Helvetica, Arial, sans-serif;
+	text-align: right;
+	font-size: 1.5em;
+	font-weight: 100;
+	letter-spacing: .15em;
+	line-height: 7em;
+	color: #666;
+	height: auto;
+	width: 175px;
+	padding: 25px;
+	float: left;
+	vertical-align: middle;
+}
+
+#aboutRight {
+	font-family: "Gotham light", Helvetica, Arial, sans-serif;
+	text-align: left;
+	font-size: .85em;
+	font-weight: 100;
+	letter-spacing: .02em;
+	line-height: 1.6em;
+	color: #666;
+	height: auto;
+	width: 400px;
+	padding: 25px;
+	border-left: solid .5px #BBB;
+	float: left;
+}
+
+.section {
+	margin: 0 auto 0;
+	padding: 25px;
+	max-width: 750px;
+}
+
+.section-header {
+	text-align: center;
+	margin: 20px auto 10px;
+	font-family: "Gotham light", Helvetica, Arial, sans-serif;
+	font-size: 3em;
+	font-weight: 100;
+	letter-spacing: .01em;
+	color: #666;
+}
+
+.sub-nav {
+	text-align: center;
+	margin: 0 auto 0;
+}
+
+.sub-nav-btn {
+	color: #333;
+	font-family: "Gotham light", Helvetica, Arial, sans-serif;
+	font-size: .75em;
+	font-weight: 400;
+	transition: color .5s ease;
+	border: 0;
+	height: 35px;
+	background: none;
+	letter-spacing: .09em;
+	margin: 0 10px 20px;
+}
+
+.sub-nav .sub-nav-btn:hover {
+	text-decoration: none;
+	color: #00b3bd;
+}
+
+.print_slider,
+.web_slider,
+.multimedia_slider,
+.illustration_slider,
+.photography_slider {
+	width: 100%;
+	height: auto;
+	max-width: 750px;	
+	text-align: center;
+}
+
+.print_slider img,
+.web_slider img,
+.multimedia_slider img,
+.illustration_slider img,
+.photography_slider img {
+	width: 100%;
+	height: auto;
+	border: solid 1px #999;
+}
+
+.print_slider img:hover,
+.web_slider img:hover,
+.multimedia_slider img:hover,
+.illustration_slider img:hover,
+.photography_slider img:hover {
+	border: solid 1px #00b3bd;
+	cursor: pointer;
+}
+
+.hideImage {
+	display: none;
+}
+
+.showImage {
+	display: inline-block;
+}
+
+.print_slider button,
+.web_slider button,
+.multimedia_slider button,
+.illustration_slider button,
+.photography_slider button {
+	text-decoration: none;
+	font-size: 2.5em;
+	color: #666;
+	border: none;
+	-webkit-appearance:none;
+	background: none;
+	margin: 0 auto 0;
+	cursor: pointer;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+  	-moz-user-select: none;     /* Firefox all */
+  	-ms-user-select: none;      /* IE 10+ */
+  	user-select: none;          /* Likely future */
+}
+
+.print_slider button:hover,
+.web_slider button:hover,
+.multimedia_slider button:hover,
+.illustration_slider button:hover,
+.photography_slider button:hover {
+	text-decoration: none;
+	color: #00b3bd;
+}
+
+#print_title,
+#web_title,
+#multimedia_title,
+#illustration_title,
+#photography_title {
+	font-family: "Gotham light", Helvetica, Arial, sans-serif;
+	color: #333;
+	letter-spacing: .1em;
+	font-size: 1em;
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+#print_subtitle,
+#web_subtitle,
+#multimedia_subtitle,
+#illustration_subtitle,
+#photography_subtitle {
+	font-family: "Gotham light", Helvetica, Arial, sans-serif;
+	color: #333;
+	font-size: .75em;
+	letter-spacing: .05em;
+	margin: 10px 0 10px;
+}
+
+.back_top {
+	font-size: .8em;
+	text-align: right;
+	margin-top: 35px;
+	color: #666;
+}
+.back_top:hover {
+	color: #00b3bd;
+}
+
+
+
